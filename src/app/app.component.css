@@ -1,0 +1,26 @@
+h1 {
+    display: inline-block;
+    margin-right: -4px;
+    vertical-align: middle;
+}
+
+h1.isItalic {
+    font-style: italic;
+}
+
+h2 { /* style for headings of posts */
+    color: #415782
+}
+
+section.l-grid-posts {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+app-post {
+    margin-bottom: 15px;
+}
+
+app-post:not(:last-child) {
+    margin-right: 15px;
+}

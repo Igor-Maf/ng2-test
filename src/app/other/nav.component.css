@@ -1,0 +1,25 @@
+nav {
+    display: inline-block;
+    margin-left: 50px;
+    margin-right: -4px;
+    vertical-align: middle;
+}
+
+    ul {
+        padding-left: 0;
+    }
+
+        li {
+            display: inline-block;
+            margin-right: -4px;
+
+            padding: 5px 15px;
+        }
+
+        li:first {
+            padding-left: 0;
+        }
+
+        li:last {
+            padding-right: 0;
+        }

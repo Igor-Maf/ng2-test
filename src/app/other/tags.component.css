@@ -1,0 +1,27 @@
+span {
+    color: #ccc;
+    font-size: 14px;
+    font-style: italic;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+a {
+    font-size: 14px;
+    font-style: italic;
+    text-decoration: none;
+    color: #5180dc;
+}
+
+li {
+    display: inline;
+    color: #666;
+}
+
+li:not(:last-child)::after {
+    content: ', ';
+    margin-left: -4px;
+}
